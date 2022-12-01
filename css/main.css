@@ -106,11 +106,12 @@ body {
   padding: 2em;
   font-size: 1.25em;
   height: 100%;
+  background-color: #000;
 }
 
 .wrapper {
   /*add display:flex and set justify-content to space-between*/
-  font-weight: 700;
+  font-weight:400;
   display: flex;
   justify-content: space-between;
 }
@@ -119,27 +120,21 @@ body {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
   color: #fff;
   line-height: 1.5em;
-  font-size: 1.6em;
-  height: 300px;
+  font-size: 1em;
+  height: 210px;
   display: flex;
-  width: 30%;
+  width: 300px;
   justify-content: center;
   align-items: center;
+  background-color: #000;
 }
 
-.div-1 {
-    background-color: yellow;
-    text-shadow: 2px 2px 4px #000;
-}
-
-.div-2 {
-    background-color: red;
-    text-shadow: 2px 2px 4px #000;
-}
-
-.div-3 {
-    background-color: blue;
-        text-shadow: 2px 2px 4px #000;
+.vr {
+    background-color: rgb(70, 70, 70);
+    display: flex;
+    width: 1px;
+    justify-content: center;
+    align-items: center;
 }
 
 
